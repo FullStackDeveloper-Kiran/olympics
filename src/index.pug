@@ -1,0 +1,15 @@
+input(type='radio' name='metal' id='gold' checked)
+label(for='gold') GOLD
+input(type='radio' name='metal' id='silver')
+label(for='silver') SILVER
+input(type='radio' name='metal' id='bronze')
+label(for='bronze') BRONZE
+div.container
+	div.rings
+		- for (var x = 1; x < 6; x++) 
+			div.ring
+				- for (var y = 1; y < 21; y++) 
+					span
+	div.rings
+		- for (var x = 1; x < 6; x++) 
+			div.ring
